@@ -1,0 +1,109 @@
+@media print {
+    body {
+        padding: 10px;
+    }
+    .container {
+        max-width: 100%;
+        padding: 0;
+    }
+    .header, .footer, .banner {
+        display: none;
+    }
+    .mySwiperItems .swiper-slide a img {
+        display: block;
+        width: 260px;
+        height: auto;
+        max-width: 350px;
+        object-fit: contain;
+    }
+    .mySwiperItems {
+        width: 100%;
+        height: auto;
+    }
+    .product-page__content {
+        padding-top: 30px;
+        padding-bottom: 54px;
+    }
+    .mySwiperItems .swiper-slide a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .product-page__content-left {
+        width: 40%;
+        max-width: 400px;
+    }
+    .product-page__content-right {
+        width: 60%;
+        margin-left: 30px;
+    }
+    .product-specifications {
+        width: 100%;
+    }
+    .product-specifications__block {
+        max-width: max-content;
+    }
+    .product-page .page-top__item {
+        padding-bottom: 30px;
+    }
+    .product-specifications__block .page-content__block-h p span {
+        font-size: 24px;
+    }
+    .product-specifications {
+        margin-top: 20px;
+    }
+    .page-top__item h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .page-top__item {
+        padding-bottom: 20px;
+    }
+    .action-print {
+        display: none;
+    }
+    .product-page__vinyl {
+        width: 100%;
+    }
+    .beefup.example {
+        width: -webkit-fill-aviable;
+    }
+    .product-specifications__block ul {
+        margin-left: 0;
+    }
+    .mySwiperTumbnail {
+        display: none;
+    }
+    .swiperIicon {
+        display: none;
+    }
+    .product-page__vinyl,
+    .product-page-matching {
+        display: none;
+    }
+    .product-specifications__block ul li {
+        padding-left: 22px;
+    }
+    .product-specifications__block ul li:before {
+        border: 2px solid #000;
+        left: 0;
+    }
+    .product-page-additional,
+    .product-page-instalations {
+        display: none;
+    }
+    /*
+    .product-page__content-left {
+        width: 100%;
+    }
+    .product-page__content {
+        display: block;
+    }
+    .product-page__content-left {
+        width: 100%;
+        height: 390px;
+    }*/
+
+
+}
